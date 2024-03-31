@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		758C42AD9F96BE2638F83BCD /* BazelDependencies */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = AE7D95AEC9B5A6930206F1B1 /* Build configuration list for PBXAggregateTarget "BazelDependencies" */;
+			buildPhases = (
+				E1D880A1D5EA90CDEE23271B /* Generate Bazel Dependencies */,
+				7AEAB77C810AA712F6C26B4A /* Create swift_debug_settings.py */,
+			);
+			dependencies = (
+			);
+			name = BazelDependencies;
+			productName = BazelDependencies;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		22E19E138E4B7B7F95E399F4 /* BazelApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F73A63AFB69EE9BDB5714C57 /* BazelApp.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3983E9562385D6AD833D1B88 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C1F9BA76197290B93C9F672 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 758C42AD9F96BE2638F83BCD;
+			remoteInfo = BazelDependencies;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1E8EC5CF9DBBDAB2E82DF85F /* BUILD */ = {isa = PBXFileReference; explicitFileType = text.script.python; path = BUILD; sourceTree = "<group>"; };
+		636F858680DD93A44F0C122A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		C74CFCDA18DC8C9D1B796F9D /* BazelSample.0.link.params */ = {isa = PBXFileReference; lastKnownFileType = file; path = BazelSample.0.link.params; sourceTree = "<group>"; };
+		CB53A61D452C20352705DDC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		DA6A06A1DF523D0F7B46D9DE /* lib.rules_xcodeproj.swift.compile.params */ = {isa = PBXFileReference; lastKnownFileType = file; path = lib.rules_xcodeproj.swift.compile.params; sourceTree = "<group>"; };
+		F3A5028B91BB9A7FEE220A77 /* BazelSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BazelSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F73A63AFB69EE9BDB5714C57 /* BazelApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BazelApp.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		001B22A2A57C4B3531247B05 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F3A5028B91BB9A7FEE220A77 /* BazelSample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		022E8A1AE2A59EB4493630B8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		07907E3939CBA6E63B3BF427 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				F73A63AFB69EE9BDB5714C57 /* BazelApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		33353322FF9C7EA01A3BF7CA /* external */ = {
+			isa = PBXGroup;
+			children = (
+				D7E93A27028C26B9B5F98BB9 /* rules_xcodeproj_generated */,
+			);
+			path = external;
+			sourceTree = "<group>";
+		};
+		44D8BB8CD4AD25E2F0739D66 /* bin */ = {
+			isa = PBXGroup;
+			children = (
+				33353322FF9C7EA01A3BF7CA /* external */,
+			);
+			path = bin;
+			sourceTree = "<group>";
+		};
+		48CD6DEC80AB25D0ADEADE27 /* xcodeproj */ = {
+			isa = PBXGroup;
+			children = (
+				6D91A81D95EC13B18620E2F7 /* xcodeproj-params */,
+			);
+			path = xcodeproj;
+			sourceTree = "<group>";
+		};
+		6322C1557957F28D53949216 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				07907E3939CBA6E63B3BF427 /* App */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		645FFA1FAF56DA4065D73381 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CB53A61D452C20352705DDC9 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		6B803DE19E23DF17E00FF428 /* bin */ = {
+			isa = PBXGroup;
+			children = (
+				E870FD9D6F66F9199D285AE6 /* rules_xcodeproj */,
+				DA6A06A1DF523D0F7B46D9DE /* lib.rules_xcodeproj.swift.compile.params */,
+			);
+			path = bin;
+			sourceTree = "<group>";
+		};
+		6D91A81D95EC13B18620E2F7 /* xcodeproj-params */ = {
+			isa = PBXGroup;
+			children = (
+				C74CFCDA18DC8C9D1B796F9D /* BazelSample.0.link.params */,
+			);
+			path = "xcodeproj-params";
+			sourceTree = "<group>";
+		};
+		87AEA640EFB8B343C82990A0 /* darwin_arm64-dbg */ = {
+			isa = PBXGroup;
+			children = (
+				44D8BB8CD4AD25E2F0739D66 /* bin */,
+			);
+			path = "darwin_arm64-dbg";
+			sourceTree = "<group>";
+		};
+		8BDFA75EA5D4045D48C67D91 /* BazelSample */ = {
+			isa = PBXGroup;
+			children = (
+				636F858680DD93A44F0C122A /* Info.plist */,
+			);
+			path = BazelSample;
+			sourceTree = "<group>";
+		};
+		A0BEEA7825678F2BDE661865 /* ios_sim_arm64-dbg-ios-sim_arm64-min17.0-applebin_ios-ST-62a007c7bf0c */ = {
+			isa = PBXGroup;
+			children = (
+				6B803DE19E23DF17E00FF428 /* bin */,
+			);
+			path = "ios_sim_arm64-dbg-ios-sim_arm64-min17.0-applebin_ios-ST-62a007c7bf0c";
+			sourceTree = "<group>";
+		};
+		B37001F51AFB411E4BE05B7F /* generator */ = {
+			isa = PBXGroup;
+			children = (
+				48CD6DEC80AB25D0ADEADE27 /* xcodeproj */,
+			);
+			path = generator;
+			sourceTree = "<group>";
+		};
+		D7E93A27028C26B9B5F98BB9 /* rules_xcodeproj_generated */ = {
+			isa = PBXGroup;
+			children = (
+				B37001F51AFB411E4BE05B7F /* generator */,
+			);
+			path = rules_xcodeproj_generated;
+			sourceTree = "<group>";
+		};
+		DABAF561CAEB04608FD01A09 /* /Users/bruno.ramos/Developer/ios-bazel-sample */ = {
+			isa = PBXGroup;
+			children = (
+				645FFA1FAF56DA4065D73381 /* Resources */,
+				6322C1557957F28D53949216 /* Sources */,
+				1E8EC5CF9DBBDAB2E82DF85F /* BUILD */,
+				EAE537A25C95E630C3294EAB /* Bazel Generated Files */,
+				001B22A2A57C4B3531247B05 /* Products */,
+				022E8A1AE2A59EB4493630B8 /* Frameworks */,
+			);
+			path = "/Users/bruno.ramos/Developer/ios-bazel-sample";
+			sourceTree = "<absolute>";
+		};
+		E870FD9D6F66F9199D285AE6 /* rules_xcodeproj */ = {
+			isa = PBXGroup;
+			children = (
+				8BDFA75EA5D4045D48C67D91 /* BazelSample */,
+			);
+			path = rules_xcodeproj;
+			sourceTree = "<group>";
+		};
+		EAE537A25C95E630C3294EAB /* Bazel Generated Files */ = {
+			isa = PBXGroup;
+			children = (
+				87AEA640EFB8B343C82990A0 /* darwin_arm64-dbg */,
+				A0BEEA7825678F2BDE661865 /* ios_sim_arm64-dbg-ios-sim_arm64-min17.0-applebin_ios-ST-62a007c7bf0c */,
+			);
+			name = "Bazel Generated Files";
+			path = "bazel-out";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3DF81EEB45B49106E9BD4DC5 /* BazelSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C21649D57C8405B234FA311 /* Build configuration list for PBXNativeTarget "BazelSample" */;
+			buildPhases = (
+				6039C9166893DBEA46E815CC /* Copy Bazel Outputs / Generate Bazel Dependencies (Index Build) */,
+				F8C767EB7EECA7F75D8B5C5D /* Create Compile Dependencies */,
+				F93200838527AD1B8BC9C6A4 /* Create Link Dependencies */,
+				DC18493071EECFC98C67C6D9 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				38A06FBB8D05F92B42009AC0 /* PBXTargetDependency */,
+			);
+			name = BazelSample;
+			productName = BazelSample;
+			productReference = F3A5028B91BB9A7FEE220A77 /* BazelSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2C1F9BA76197290B93C9F672 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 9999;
+				LastUpgradeCheck = 9999;
+				TargetAttributes = {
+					3DF81EEB45B49106E9BD4DC5 = {
+						CreatedOnToolsVersion = 15.3.0;
+						LastSwiftMigration = 9999;
+					};
+					758C42AD9F96BE2638F83BCD = {
+						CreatedOnToolsVersion = 15.3.0;
+					};
+				};
+			};
+			buildConfigurationList = 398E469AEAEF475EFAC532E4 /* Build configuration list for PBXProject "BazelSample" */;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DABAF561CAEB04608FD01A09 /* /Users/bruno.ramos/Developer/ios-bazel-sample */;
+			productRefGroup = 001B22A2A57C4B3531247B05 /* Products */;
+			projectDirPath = /var/tmp/_bazel_bruno.ramos/f3c337f61dee89c82650289c369fccd1/rules_xcodeproj.noindex/build_output_base/execroot/_main;
+			projectRoot = "";
+			targets = (
+				758C42AD9F96BE2638F83BCD /* BazelDependencies */,
+				3DF81EEB45B49106E9BD4DC5 /* BazelSample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6039C9166893DBEA46E815CC /* Copy Bazel Outputs / Generate Bazel Dependencies (Index Build) */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(TARGET_BUILD_DIR)/$(INFOPLIST_PATH)",
+			);
+			name = "Copy Bazel Outputs / Generate Bazel Dependencies (Index Build)";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -euo pipefail\n\nif [[ \"$ACTION\" == \"indexbuild\" ]]; then\n  cd \"$SRCROOT\"\n\n  \"$BAZEL_INTEGRATION_DIR/generate_index_build_bazel_dependencies.sh\"\nelse\n  \"$BAZEL_INTEGRATION_DIR/copy_outputs.sh\" \\\n    \"_BazelForcedCompile_.swift\" \\\n    \"$BAZEL_INTEGRATION_DIR/app.exclude.rsynclist\"\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7AEAB77C810AA712F6C26B4A /* Create swift_debug_settings.py */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(BAZEL_INTEGRATION_DIR)/$(CONFIGURATION)-swift_debug_settings.py",
+			);
+			name = "Create swift_debug_settings.py";
+			outputPaths = (
+				"$(OBJROOT)/$(CONFIGURATION)/swift_debug_settings.py",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "perl -pe '\n  # Replace \"__BAZEL_XCODE_DEVELOPER_DIR__\" with \"$(DEVELOPER_DIR)\"\n  s/__BAZEL_XCODE_DEVELOPER_DIR__/\\$(DEVELOPER_DIR)/g;\n\n  # Replace \"__BAZEL_XCODE_SDKROOT__\" with \"$(SDKROOT)\"\n  s/__BAZEL_XCODE_SDKROOT__/\\$(SDKROOT)/g;\n\n  # Replace build settings with their values\n  s/\n    \\$             # Match a dollar sign\n    (\\()?          # Optionally match an opening parenthesis and capture it\n    ([a-zA-Z_]\\w*) # Match a variable name and capture it\n    (?(1)\\))       # If an opening parenthesis was captured, match a closing parenthesis\n  /$ENV{$2}/gx;    # Replace the entire matched string with the value of the corresponding environment variable\n\n' \"$SCRIPT_INPUT_FILE_0\" > \"$SCRIPT_OUTPUT_FILE_0\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E1D880A1D5EA90CDEE23271B /* Generate Bazel Dependencies */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate Bazel Dependencies";
+			outputFileListPaths = (
+				"$(INTERNAL_DIR)/external.xcfilelist",
+				"$(INTERNAL_DIR)/generated.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$BAZEL_INTEGRATION_DIR/generate_bazel_dependencies.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F8C767EB7EECA7F75D8B5C5D /* Create Compile Dependencies */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SWIFT_PARAMS_FILE)",
+			);
+			name = "Create Compile Dependencies";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/swift.compile.params",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -euo pipefail\n\nperl -pe '\n  s/__BAZEL_XCODE_DEVELOPER_DIR__/\\$(DEVELOPER_DIR)/g;\n  s/__BAZEL_XCODE_SDKROOT__/\\$(SDKROOT)/g;\n  s/\\$(\\()?([a-zA-Z_]\\w*)(?(1)\\))/$ENV{$2}/gx;\n' \"$SCRIPT_INPUT_FILE_0\" > \"$SCRIPT_OUTPUT_FILE_0\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F93200838527AD1B8BC9C6A4 /* Create Link Dependencies */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(LINK_PARAMS_FILE)",
+			);
+			name = "Create Link Dependencies";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/link.params",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -euo pipefail\n\nif [[ \"${ENABLE_PREVIEWS:-}\" == \"YES\" ]]; then\nperl -pe 's/\\$(\\()?([a-zA-Z_]\\w*)(?(1)\\))/$ENV{$2}/g' \\\n  \"$SCRIPT_INPUT_FILE_0\" > \"$SCRIPT_OUTPUT_FILE_0\"\nelse\n  touch \"$SCRIPT_OUTPUT_FILE_0\"\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC18493071EECFC98C67C6D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22E19E138E4B7B7F95E399F4 /* BazelApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		38A06FBB8D05F92B42009AC0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BazelDependencies;
+			target = 758C42AD9F96BE2638F83BCD /* BazelDependencies */;
+			targetProxy = 3983E9562385D6AD833D1B88 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2C9A186ACA6EF78A51AF0BCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_ASSET_SYMBOLS = NO;
+				BAZEL_CONFIG = rules_xcodeproj;
+				BAZEL_EXTERNAL = "$(BAZEL_OUTPUT_BASE)/external";
+				BAZEL_INTEGRATION_DIR = "$(INTERNAL_DIR)/bazel";
+				BAZEL_LLDB_INIT = "$(HOME)/.lldbinit-rules_xcodeproj";
+				BAZEL_OUT = "$(PROJECT_DIR)/bazel-out";
+				BAZEL_OUTPUT_BASE = "$(_BAZEL_OUTPUT_BASE:standardizepath)";
+				BAZEL_WORKSPACE_ROOT = "$(SRCROOT)";
+				BUILD_DIR = "$(SYMROOT)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				BUILD_MARKER_FILE = "$(OBJROOT)/build_marker";
+				BUILD_WORKSPACE_DIRECTORY = "$(SRCROOT)";
+				BUILT_PRODUCTS_DIR = "$(INDEXING_BUILT_PRODUCTS_DIR__$(INDEX_ENABLE_BUILD_ARENA))";
+				CC = "$(BAZEL_INTEGRATION_DIR)/clang.sh";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_MODULES_AUTOLINK = NO;
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(BAZEL_PACKAGE_BIN_DIR)";
+				COPY_PHASE_STRIP = NO;
+				CXX = "$(BAZEL_INTEGRATION_DIR)/clang.sh";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEPLOYMENT_LOCATION = "$(INDEXING_DEPLOYMENT_LOCATION__$(INDEX_ENABLE_BUILD_ARENA)),";
+				DSTROOT = "$(PROJECT_TEMP_DIR)";
+				ENABLE_DEFAULT_SEARCH_PATHS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INDEXING_BUILT_PRODUCTS_DIR__ = "$(INDEXING_BUILT_PRODUCTS_DIR__NO)";
+				INDEXING_BUILT_PRODUCTS_DIR__NO = "$(BUILD_DIR)";
+				INDEXING_BUILT_PRODUCTS_DIR__YES = "$(CONFIGURATION_BUILD_DIR)";
+				INDEXING_DEPLOYMENT_LOCATION__ = "$(INDEXING_DEPLOYMENT_LOCATION__NO)";
+				INDEXING_DEPLOYMENT_LOCATION__NO = YES;
+				INDEXING_DEPLOYMENT_LOCATION__YES = NO;
+				INDEXING_PROJECT_DIR__ = "$(INDEXING_PROJECT_DIR__NO)";
+				INDEXING_PROJECT_DIR__NO = /var/tmp/_bazel_bruno.ramos/f3c337f61dee89c82650289c369fccd1/rules_xcodeproj.noindex/build_output_base/execroot/_main;
+				INDEXING_PROJECT_DIR__YES = /var/tmp/_bazel_bruno.ramos/f3c337f61dee89c82650289c369fccd1/rules_xcodeproj.noindex/indexbuild_output_base/execroot/_main;
+				INDEX_DATA_STORE_DIR = "$(INDEX_DATA_STORE_DIR)";
+				INDEX_FORCE_SCRIPT_EXECUTION = YES;
+				INDEX_IMPORT = "$(BAZEL_OUT)/darwin_arm64-opt-exec-ST-13d3ddad9198/bin/external/rules_xcodeproj_index_import/index-import";
+				INSTALL_PATH = "$(BAZEL_PACKAGE_BIN_DIR)/$(TARGET_NAME)/bin";
+				INTERNAL_DIR = "$(PROJECT_FILE_PATH)/rules_xcodeproj";
+				LD = "$(BAZEL_INTEGRATION_DIR)/ld.sh";
+				LDPLUSPLUS = "$(BAZEL_INTEGRATION_DIR)/ld.sh";
+				LD_DYLIB_INSTALL_NAME = "";
+				LD_OBJC_ABI_VERSION = "";
+				LD_RUNPATH_SEARCH_PATHS = "";
+				LIBTOOL = "$(BAZEL_INTEGRATION_DIR)/libtool.sh";
+				ONLY_ACTIVE_ARCH = YES;
+				PROJECT_DIR = "$(INDEXING_PROJECT_DIR__$(INDEX_ENABLE_BUILD_ARENA))";
+				RESOLVED_REPOSITORIES = "\".\" \"/Users/bruno.ramos/Developer/ios-bazel-sample\"";
+				RULES_XCODEPROJ_BUILD_MODE = bazel;
+				SRCROOT = "/Users/bruno.ramos/Developer/ios-bazel-sample";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EXEC = "$(BAZEL_INTEGRATION_DIR)/swiftc";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_USE_INTEGRATED_DRIVER = NO;
+				SWIFT_VERSION = 5.0;
+				TARGET_TEMP_DIR = "$(PROJECT_TEMP_DIR)/$(BAZEL_PACKAGE_BIN_DIR)/$(COMPILE_TARGET_NAME)";
+				USE_HEADERMAP = NO;
+				VALIDATE_WORKSPACE = NO;
+				_BAZEL_OUTPUT_BASE = "$(PROJECT_DIR)/../..";
+			};
+			name = Debug;
+		};
+		3C0111449870181367697E96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BAZEL_PACKAGE_BIN_DIR = rules_xcodeproj;
+				CALCULATE_OUTPUT_GROUPS_SCRIPT = "$(BAZEL_INTEGRATION_DIR)/calculate_output_groups.py";
+				CC = "";
+				CXX = "";
+				INDEXING_SUPPORTED_PLATFORMS__ = "$(INDEXING_SUPPORTED_PLATFORMS__NO)";
+				INDEXING_SUPPORTED_PLATFORMS__NO = iphonesimulator;
+				INDEXING_SUPPORTED_PLATFORMS__YES = iphonesimulator;
+				INDEX_DISABLE_SCRIPT_EXECUTION = YES;
+				LD = "";
+				LDPLUSPLUS = "";
+				LIBTOOL = libtool;
+				SUPPORTED_PLATFORMS = "$(INDEXING_SUPPORTED_PLATFORMS__$(INDEX_ENABLE_BUILD_ARENA))";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_EXEC = swiftc;
+				TARGET_IDS_FILE = "$(BAZEL_OUT)/darwin_arm64-dbg/bin/external/rules_xcodeproj_generated/generator/xcodeproj/xcodeproj_target_ids";
+				TARGET_NAME = BazelDependencies;
+			};
+			name = Debug;
+		};
+		E51495B74AD76ED476011DCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				BAZEL_COMPILE_TARGET_IDS = "@@//:lib ios_sim_arm64-dbg-ios-sim_arm64-min17.0-applebin_ios-ST-62a007c7bf0c";
+				"BAZEL_COMPILE_TARGET_IDS[sdk=iphonesimulator*]" = "$(BAZEL_COMPILE_TARGET_IDS)";
+				BAZEL_LABEL = "@@//:BazelSample";
+				BAZEL_OUTPUTS_PRODUCT = "bazel-out/ios_sim_arm64-dbg-ios-sim_arm64-min17.0-applebin_ios-ST-62a007c7bf0c/bin/BazelSample.app";
+				BAZEL_OUTPUTS_PRODUCT_BASENAME = BazelSample.app;
+				BAZEL_PACKAGE_BIN_DIR = "bazel-out/ios_sim_arm64-dbg-ios-sim_arm64-min17.0-applebin_ios-ST-62a007c7bf0c/bin";
+				BAZEL_TARGET_ID = "@@//:BazelSample ios_sim_arm64-dbg-ios-sim_arm64-min17.0-applebin_ios-ST-62a007c7bf0c";
+				"BAZEL_TARGET_ID[sdk=iphonesimulator*]" = "$(BAZEL_TARGET_ID)";
+				BUILT_PRODUCTS_DIR = "$(CONFIGURATION_BUILD_DIR)";
+				CODE_SIGN_STYLE = Manual;
+				COMPILE_TARGET_NAME = lib;
+				DEPLOYMENT_LOCATION = NO;
+				INFOPLIST_FILE = "$(BAZEL_OUT)/ios_sim_arm64-dbg-ios-sim_arm64-min17.0-applebin_ios-ST-62a007c7bf0c/bin/rules_xcodeproj/BazelSample/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LINK_PARAMS_FILE = "$(BAZEL_OUT)/darwin_arm64-dbg/bin/external/rules_xcodeproj_generated/generator/xcodeproj/xcodeproj-params/BazelSample.0.link.params";
+				OTHER_LDFLAGS = "@$(DERIVED_FILE_DIR)/link.params";
+				OTHER_SWIFT_FLAGS = "-Xcc -working-directory -Xcc $(PROJECT_DIR) -working-directory $(PROJECT_DIR) -vfsoverlay $(OBJROOT)/bazel-out-overlay.yaml $(PREVIEWS_SWIFT_INCLUDE__$(ENABLE_PREVIEWS)) @$(DERIVED_FILE_DIR)/swift.compile.params -Xcc -iquote -Xcc $(PROJECT_DIR) -Xcc -iquote -Xcc $(BAZEL_OUT)/ios_sim_arm64-dbg-ios-sim_arm64-min17.0-applebin_ios-ST-62a007c7bf0c/bin -Xcc -O0 -Xcc -DDEBUG=1 -Xcc -fstack-protector -Xcc -fstack-protector-all";
+				PREVIEWS_SWIFT_INCLUDE__ = "";
+				PREVIEWS_SWIFT_INCLUDE__NO = "";
+				PREVIEWS_SWIFT_INCLUDE__YES = "-I bazel-out/ios_sim_arm64-dbg-ios-sim_arm64-min17.0-applebin_ios-ST-62a007c7bf0c/bin";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.bazel-sample";
+				PRODUCT_MODULE_NAME = lib;
+				PRODUCT_NAME = BazelSample;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = iphonesimulator;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_PARAMS_FILE = "$(BAZEL_OUT)/ios_sim_arm64-dbg-ios-sim_arm64-min17.0-applebin_ios-ST-62a007c7bf0c/bin/lib.rules_xcodeproj.swift.compile.params";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGET_NAME = BazelSample;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		398E469AEAEF475EFAC532E4 /* Build configuration list for PBXProject "BazelSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C9A186ACA6EF78A51AF0BCE /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		5C21649D57C8405B234FA311 /* Build configuration list for PBXNativeTarget "BazelSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E51495B74AD76ED476011DCC /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		AE7D95AEC9B5A6930206F1B1 /* Build configuration list for PBXAggregateTarget "BazelDependencies" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C0111449870181367697E96 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2C1F9BA76197290B93C9F672 /* Project object */;
+}

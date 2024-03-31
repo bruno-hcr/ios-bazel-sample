@@ -1,0 +1,3 @@
+$(BAZEL_OUT)/darwin_arm64-dbg/bin/external/rules_xcodeproj_generated/generator/xcodeproj/xcodeproj-params/BazelSample.0.link.params
+$(BAZEL_OUT)/ios_sim_arm64-dbg-ios-sim_arm64-min17.0-applebin_ios-ST-62a007c7bf0c/bin/lib.rules_xcodeproj.swift.compile.params
+$(BAZEL_OUT)/ios_sim_arm64-dbg-ios-sim_arm64-min17.0-applebin_ios-ST-62a007c7bf0c/bin/rules_xcodeproj/BazelSample/Info.plist
