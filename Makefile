@@ -7,10 +7,10 @@ install:
 	@make script && ./scripts/install_dependencies.sh
 
 xcode:
-	@make bazel run //:xcodeproj && open BazelSample.xcodeproj
+	bazel run //:xcodeproj && open BazelSample.xcodeproj
 
 run:
-	@make bazel run //:BazelSample
+	bazel run //:BazelSample
 
 build:
-	@make bazel build //:BazelSample
+	bazel build //:BazelSample
